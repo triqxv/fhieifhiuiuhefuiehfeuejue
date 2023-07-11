@@ -1,0 +1,23 @@
+local Notification = require(game:GetService("ReplicatedStorage").Notification)
+local userName = game.Players.LocalPlayer.Name
+local currentTime = os.date("%H:%M:%S")
+
+Notification.new("<Color=Yellow>Player: " .. userName .. "<Color=/>"):Display()
+wait(1.38)
+Notification.new("<Color=Purple>current Time: " .. currentTime .. "<Color=/>"):Display()
+wait(1.29)
+
+local numCurrentPlayers = #game.Players:GetPlayers()
+Notification.new("<Color=Green>Number of Players Using the Script: " .. numCurrentPlayers .. "<Color=/>"):Display()
+wait(2.3)
+Notification.new("<Color=Blue>🗿🗿HEHE🗿🗿<Color=/>"):Display()
+wait(2.4)
+Notification.new("<Color=Blue>(SCRIPT'S NAME : MIRAGE ISLAND V2 BY Reid#0361!)<Color=/>"):Display()
+wait(2.6)
+Notification.new("<Color=Green>(The script will shortly start working!)<Color=/>"):Display()
+wait(2.9)
+Notification.new("<Color=Purple>(Wait...)<Color=/>"):Display()
+wait(3.2)
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/triqxv/-Hop-Check-Full-Moon-Tp-To-Mirrage-Tp-to-Gear-/main/Hop-Check-Full-Moon-Tp-To-Mirrage-Tp-to-Gear"))()
+ wait(1.29)
+ Notification.new("<Color=Blue>🗿🗿ENJOY🗿🗿<Color=/>"):Display()
