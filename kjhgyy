@@ -4,7 +4,7 @@ local currentTime = os.date("%H:%M:%S")
 
 Notification.new("<Color=Yellow>Player: " .. userName .. "<Color=/>"):Display()
 wait(1.38)
-Notification.new("<Color=Purple>current Time: " .. currentTime .. "<Color=/>"):Display()
+Notification.new("<Color=Purple>Current Time: " .. currentTime .. "<Color=/>"):Display()
 wait(1.29)
 
 local numCurrentPlayers = #game.Players:GetPlayers()
