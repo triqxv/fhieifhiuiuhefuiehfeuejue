@@ -1,7 +1,7 @@
 local Notification = require(game:GetService("ReplicatedStorage").Notification)
 local userName = game.Players.LocalPlayer.Name
 local currentTime = os.date("%H:%M:%S")
-
+--HELLO
 Notification.new("<Color=Yellow>Player: " .. userName .. "<Color=/>"):Display()
 wait(1.38)
 Notification.new("<Color=Purple>Current Time: " .. currentTime .. "<Color=/>"):Display()
